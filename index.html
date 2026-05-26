@@ -1,0 +1,531 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28300\viewh17700\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="pt-BR">\
+<head>\
+  <meta charset="UTF-8">\
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+  <title>Mariana Leite \'97 Verbo Educa\'e7\'e3o Executiva</title>\
+  <link rel="preconnect" href="https://fonts.googleapis.com">\
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">\
+  <style>\
+    :root \{\
+      --terracota: #C46A48;\
+      --grafite:   #2D2D2D;\
+      --areia:     #F2E8DD;\
+      --areia-mid: #E0CFC0;\
+      --areia-deep:#D9C3B3;\
+      --bordo:     #702F38;\
+      --oliva:     #7A8B74;\
+    \}\
+\
+    *, *::before, *::after \{ box-sizing: border-box; margin: 0; padding: 0; \}\
+    html \{ scroll-behavior: smooth; \}\
+\
+    body \{\
+      background: var(--areia);\
+      font-family: 'Poppins', sans-serif;\
+      min-height: 100dvh;\
+      display: flex;\
+      flex-direction: column;\
+      align-items: center;\
+      padding: 52px 24px 72px;\
+    \}\
+\
+    .page \{\
+      width: 100%;\
+      max-width: 400px;\
+      display: flex;\
+      flex-direction: column;\
+      align-items: center;\
+    \}\
+\
+    .logo-mark \{\
+      margin-bottom: 32px;\
+      display: flex;\
+      flex-direction: column;\
+      align-items: center;\
+      gap: 10px;\
+      opacity: 0;\
+      animation: rise 0.7s ease 0.05s forwards;\
+    \}\
+\
+    .logo-badge \{\
+      background: transparent;\
+      padding: 0;\
+      display: flex;\
+      flex-direction: column;\
+      align-items: center;\
+      gap: 10px;\
+    \}\
+\
+    .logo-wordmark \{\
+      font-family: 'Cormorant Garamond', serif;\
+      font-weight: 500;\
+      font-size: 11px;\
+      letter-spacing: 0.28em;\
+      text-transform: uppercase;\
+      color: var(--grafite);\
+      opacity: 0.7;\
+    \}\
+\
+    .profile \{\
+      display: flex;\
+      flex-direction: column;\
+      align-items: center;\
+      margin-bottom: 24px;\
+      opacity: 0;\
+      animation: rise 0.7s ease 0.18s forwards;\
+    \}\
+\
+    .avatar \{\
+      width: 90px;\
+      height: 90px;\
+      border-radius: 50%;\
+      object-fit: cover;\
+      border: 2px solid var(--terracota);\
+      margin-bottom: 16px;\
+    \}\
+\
+    .avatar-ph \{\
+      width: 90px;\
+      height: 90px;\
+      border-radius: 50%;\
+      border: 2px solid var(--terracota);\
+      background: var(--areia-deep);\
+      display: flex;\
+      align-items: center;\
+      justify-content: center;\
+      margin-bottom: 16px;\
+    \}\
+\
+    .profile-name \{\
+      font-family: 'Cormorant Garamond', serif;\
+      font-weight: 400;\
+      font-size: 28px;\
+      color: var(--grafite);\
+      letter-spacing: 0.03em;\
+      margin-bottom: 4px;\
+    \}\
+\
+    .profile-tagline \{\
+      font-family: 'Cormorant Garamond', serif;\
+      font-style: italic;\
+      font-weight: 300;\
+      font-size: 14px;\
+      color: var(--terracota);\
+      letter-spacing: 0.06em;\
+    \}\
+\
+    .socials \{\
+      display: flex;\
+      gap: 22px;\
+      margin-bottom: 36px;\
+      opacity: 0;\
+      animation: rise 0.7s ease 0.3s forwards;\
+    \}\
+\
+    .social \{\
+      color: var(--grafite);\
+      opacity: 0.45;\
+      transition: opacity 0.2s, color 0.2s, transform 0.2s;\
+      text-decoration: none;\
+      display: flex;\
+    \}\
+\
+    .social:hover \{\
+      opacity: 1;\
+      color: var(--terracota);\
+      transform: translateY(-2px);\
+    \}\
+\
+    .links \{\
+      width: 100%;\
+      display: flex;\
+      flex-direction: column;\
+      gap: 10px;\
+    \}\
+\
+    .link-row \{\
+      opacity: 0;\
+      animation: rise 0.55s ease forwards;\
+    \}\
+\
+    .link-row:nth-child(1)  \{ animation-delay: 0.38s; \}\
+    .link-row:nth-child(2)  \{ animation-delay: 0.44s; \}\
+    .link-row:nth-child(3)  \{ animation-delay: 0.50s; \}\
+    .link-row:nth-child(4)  \{ animation-delay: 0.56s; \}\
+    .link-row:nth-child(5)  \{ animation-delay: 0.62s; \}\
+    .link-row:nth-child(6)  \{ animation-delay: 0.68s; \}\
+    .link-row:nth-child(7)  \{ animation-delay: 0.74s; \}\
+    .link-row:nth-child(8)  \{ animation-delay: 0.80s; \}\
+    .link-row:nth-child(9)  \{ animation-delay: 0.86s; \}\
+\
+    .btn \{\
+      display: flex;\
+      align-items: center;\
+      width: 100%;\
+      padding: 15px 18px;\
+      border-radius: 6px;\
+      text-decoration: none;\
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, border-color 0.2s ease;\
+      gap: 14px;\
+      cursor: pointer;\
+    \}\
+\
+    .btn:hover \{ transform: translateY(-2px); \}\
+\
+    .btn-bordo \{\
+      background: var(--bordo);\
+      border: 1px solid transparent;\
+    \}\
+    .btn-bordo:hover \{\
+      background: #5e2731;\
+      box-shadow: 0 6px 24px rgba(112,47,56,0.22);\
+    \}\
+    .btn-bordo .btn-title,\
+    .btn-bordo .btn-sub,\
+    .btn-bordo .btn-icon \{ color: var(--areia); \}\
+\
+    .btn-dark \{\
+      background: var(--grafite);\
+      border: 1px solid transparent;\
+    \}\
+    .btn-dark:hover \{\
+      background: #1c1c1c;\
+      box-shadow: 0 6px 24px rgba(45,45,45,0.18);\
+    \}\
+    .btn-dark .btn-title,\
+    .btn-dark .btn-sub,\
+    .btn-dark .btn-icon \{ color: var(--areia); \}\
+\
+    .btn-outline \{\
+      background: transparent;\
+      border: 1px solid var(--areia-mid);\
+    \}\
+    .btn-outline:hover \{\
+      border-color: var(--terracota);\
+      box-shadow: 0 4px 16px rgba(196,106,72,0.1);\
+    \}\
+    .btn-outline .btn-title \{ color: var(--grafite); \}\
+    .btn-outline .btn-sub   \{ color: var(--grafite); opacity: 0.5; \}\
+    .btn-outline .btn-icon  \{ color: var(--grafite); opacity: 0.5; \}\
+    .btn-outline:hover .btn-icon  \{ color: var(--terracota); opacity: 1; \}\
+    .btn-outline:hover .btn-title \{ color: var(--terracota); \}\
+\
+    .btn-icon \{\
+      width: 18px;\
+      height: 18px;\
+      flex-shrink: 0;\
+    \}\
+\
+    .btn-text \{ flex: 1; \}\
+\
+    .btn-title \{\
+      font-size: 13px;\
+      font-weight: 400;\
+      letter-spacing: 0.02em;\
+      line-height: 1.3;\
+    \}\
+\
+    .btn-sub \{\
+      font-size: 11px;\
+      font-weight: 300;\
+      margin-top: 2px;\
+      letter-spacing: 0.01em;\
+      line-height: 1.3;\
+    \}\
+\
+    .sep \{\
+      display: flex;\
+      align-items: center;\
+      gap: 10px;\
+      padding: 6px 0;\
+      opacity: 0;\
+      animation: rise 0.55s ease forwards;\
+    \}\
+\
+    .sep-line \{\
+      flex: 1;\
+      height: 1px;\
+      background: var(--areia-deep);\
+    \}\
+\
+    .sep-label \{\
+      font-family: 'Cormorant Garamond', serif;\
+      font-size: 10px;\
+      letter-spacing: 0.22em;\
+      text-transform: uppercase;\
+      color: var(--grafite);\
+      opacity: 0.35;\
+    \}\
+\
+    .footer \{\
+      margin-top: 52px;\
+      display: flex;\
+      flex-direction: column;\
+      align-items: center;\
+      gap: 10px;\
+      opacity: 0;\
+      animation: rise 0.6s ease 1s forwards;\
+    \}\
+\
+    .footer-copy \{\
+      font-family: 'Cormorant Garamond', serif;\
+      font-weight: 300;\
+      font-size: 10px;\
+      letter-spacing: 0.22em;\
+      text-transform: uppercase;\
+      color: var(--grafite);\
+      opacity: 0.3;\
+    \}\
+\
+    @keyframes rise \{\
+      from \{ opacity: 0; transform: translateY(14px); \}\
+      to   \{ opacity: 1; transform: translateY(0); \}\
+    \}\
+\
+    /* \uc0\u9472 \u9472 \u9472  MOBILE PEQUENO (\u8804  380px) \u9472 \u9472 \u9472  */\
+    @media (max-width: 380px) \{\
+      body \{ padding: 36px 16px 56px; \}\
+      .profile-name \{ font-size: 24px; \}\
+      .btn \{ padding: 13px 14px; gap: 12px; \}\
+      .btn-title \{ font-size: 12px; \}\
+      .btn-sub \{ font-size: 10px; \}\
+      .socials \{ gap: 18px; \}\
+      .logo-mark \{ margin-bottom: 24px; \}\
+    \}\
+\
+    /* \uc0\u9472 \u9472 \u9472  TABLET / DESKTOP (\u8805  600px) \u9472 \u9472 \u9472  */\
+    @media (min-width: 600px) \{\
+      body \{ padding: 64px 40px 80px; \}\
+      .page \{ max-width: 480px; \}\
+      .avatar, .avatar-ph \{ width: 108px; height: 108px; \}\
+      .profile-name \{ font-size: 34px; \}\
+      .profile-tagline \{ font-size: 16px; \}\
+      .logo-wordmark \{ font-size: 12px; \}\
+      .socials \{ gap: 28px; margin-bottom: 40px; \}\
+      .social svg \{ width: 20px; height: 20px; \}\
+      .btn \{ padding: 18px 22px; gap: 16px; border-radius: 8px; min-height: 58px; \}\
+      .btn-icon \{ width: 20px; height: 20px; \}\
+      .btn-title \{ font-size: 14px; \}\
+      .btn-sub \{ font-size: 12px; \}\
+      .links \{ gap: 12px; \}\
+      .footer \{ margin-top: 64px; \}\
+    \}\
+\
+    /* \uc0\u9472 \u9472 \u9472  TOUCH: \'e1rea m\'ednima 44px, remove hover preso \u9472 \u9472 \u9472  */\
+    @media (hover: none) \{\
+      .btn \{ min-height: 52px; \}\
+      .social \{ padding: 6px; \}\
+      .btn:hover \{ transform: none; box-shadow: none; \}\
+      .btn:active \{ transform: scale(0.98); opacity: 0.85; transition: transform 0.1s, opacity 0.1s; \}\
+      .social:hover \{ transform: none; opacity: 0.45; \}\
+      .social:active \{ opacity: 1; color: var(--terracota); \}\
+    \}\
+  </style>\
+</head>\
+<body>\
+<div class="page">\
+\
+  <!-- LOGO -->\
+  <div class="logo-mark">\
+    <div class="logo-badge">\
+      <svg width="110" height="28" viewBox="0 0 110 28" fill="none" xmlns="http://www.w3.org/2000/svg">\
+        <line x1="0" y1="14" x2="12" y2="14" stroke="#C46A48" stroke-width="1.5" stroke-linecap="round"/>\
+        <path d="M12 14 Q14.5 6 17 14 Q19.5 22 22 14 Q24.5 6 27 14 Q29.5 22 32 14 Q34.5 6 37 14 Q39.5 22 42 14 Q44.5 6 47 14 Q49.5 22 52 14 Q54.5 6 57 14 Q59.5 22 62 14 Q64.5 6 67 14 Q69.5 22 72 14 Q74.5 6 77 14 Q79.5 22 82 14 Q84.5 6 87 14 Q89.5 22 92 14 Q94.5 6 97 14 Q99.5 22 102 14"\
+              stroke="#C46A48" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>\
+        <line x1="102" y1="14" x2="110" y2="14" stroke="#C46A48" stroke-width="1.5" stroke-linecap="round"/>\
+        <line x1="0" y1="22" x2="110" y2="22" stroke="#C46A48" stroke-width="0.35" stroke-linecap="round" opacity="0.3"/>\
+      </svg>\
+      <span class="logo-wordmark">verbo educa\'e7\'e3o executiva</span>\
+    </div>\
+  </div>\
+\
+  <!-- PROFILE -->\
+  <div class="profile">\
+    <img class="avatar" src="data:image/jpeg;base64,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" alt="Mariana Leite">\
+    <h1 class="profile-name">Mariana Leite</h1>\
+    <p class="profile-tagline">o verbo que move.</p>\
+  </div>\
+\
+  <!-- SOCIAL ICONS -->\
+  <div class="socials">\
+    <a href="https://www.tiktok.com/@amarileite" class="social" target="_blank" rel="noopener" title="TikTok">\
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">\
+        <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.22 8.22 0 0 0 4.8 1.54V6.78a4.85 4.85 0 0 1-1.03-.09z"/>\
+      </svg>\
+    </a>\
+    <a href="https://www.instagram.com/amarileitee" class="social" target="_blank" rel="noopener" title="Instagram">\
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">\
+        <rect x="2" y="2" width="20" height="20" rx="5"/>\
+        <circle cx="12" cy="12" r="4"/>\
+        <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/>\
+      </svg>\
+    </a>\
+    <a href="https://www.linkedin.com/in/amarileite/" class="social" target="_blank" rel="noopener" title="LinkedIn">\
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">\
+        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/>\
+        <rect x="2" y="9" width="4" height="12"/>\
+        <circle cx="4" cy="4" r="2"/>\
+      </svg>\
+    </a>\
+    <a href="https://substack.com/@amarileite" class="social" target="_blank" rel="noopener" title="Substack">\
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">\
+        <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>\
+      </svg>\
+    </a>\
+  </div>\
+\
+  <!-- LINKS -->\
+  <div class="links">\
+\
+    <!-- 1 \'97 Mentoria -->\
+    <div class="link-row">\
+      <a href="https://formulario-mentoria.amarileite.com.br/" class="btn btn-bordo" target="_blank" rel="noopener">\
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">\
+          <path d="M12 22c5.52 0 10-4.48 10-10S17.52 2 12 2 2 6.48 2 12s4.48 10 10 10z"/>\
+          <path d="M10 8l6 4-6 4V8z" fill="currentColor" stroke="none"/>\
+        </svg>\
+        <div class="btn-text">\
+          <div class="btn-title">Quero fazer Mentoria</div>\
+          <div class="btn-sub">Inscri\'e7\'e3o \'97 Verbo Mentoria</div>\
+        </div>\
+      </a>\
+    </div>\
+\
+    <!-- 2 \'97 Modo S\'eanior -->\
+    <div class="link-row">\
+      <a href="https://chat.whatsapp.com/FV9qzKIUvETGwFtXOs90bW" class="btn btn-dark" target="_blank" rel="noopener">\
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">\
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>\
+          <circle cx="9" cy="7" r="4"/>\
+          <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>\
+        </svg>\
+        <div class="btn-text">\
+          <div class="btn-title">Modo S\'eanior</div>\
+          <div class="btn-sub">Entre para a comunidade</div>\
+        </div>\
+      </a>\
+    </div>\
+\
+    <!-- SEP -->\
+    <div class="sep" style="animation-delay:0.56s">\
+      <div class="sep-line"></div>\
+      <span class="sep-label">conte\'fado</span>\
+      <div class="sep-line"></div>\
+    </div>\
+\
+    <!-- 3 \'97 E-book -->\
+    <div class="link-row">\
+      <a href="https://hotmart.com/pt-br/marketplace/produtos/passo-a-passo-para-conquistar-o-trabalho-dos-sonhos/P102736736V" class="btn btn-outline" target="_blank" rel="noopener">\
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">\
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>\
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>\
+        </svg>\
+        <div class="btn-text">\
+          <div class="btn-title">E-book</div>\
+          <div class="btn-sub">Passo a Passo para Conquistar o Trabalho dos Sonhos</div>\
+        </div>\
+      </a>\
+    </div>\
+\
+    <!-- 4 \'97 Substack -->\
+    <div class="link-row">\
+      <a href="https://substack.com/@amarileite?utm_campaign=profile&utm_medium=profile-page" class="btn btn-outline" target="_blank" rel="noopener">\
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">\
+          <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>\
+        </svg>\
+        <div class="btn-text">\
+          <div class="btn-title">Newsletter</div>\
+          <div class="btn-sub">Substack \'97 Carreira sem perder a ess\'eancia</div>\
+        </div>\
+      </a>\
+    </div>\
+\
+    <!-- SEP -->\
+    <div class="sep" style="animation-delay:0.72s">\
+      <div class="sep-line"></div>\
+      <span class="sep-label">redes</span>\
+      <div class="sep-line"></div>\
+    </div>\
+\
+    <!-- 5 \'97 Instagram Verbo -->\
+    <div class="link-row">\
+      <a href="https://www.instagram.com/verbo.executiva" class="btn btn-outline" target="_blank" rel="noopener">\
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">\
+          <rect x="2" y="2" width="20" height="20" rx="5"/>\
+          <circle cx="12" cy="12" r="4"/>\
+          <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/>\
+        </svg>\
+        <div class="btn-text">\
+          <div class="btn-title">Instagram \'97 Verbo</div>\
+          <div class="btn-sub">@verbo.executiva</div>\
+        </div>\
+      </a>\
+    </div>\
+\
+    <!-- 6 \'97 Instagram Mariana -->\
+    <div class="link-row">\
+      <a href="https://www.instagram.com/amarileitee" class="btn btn-outline" target="_blank" rel="noopener">\
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">\
+          <rect x="2" y="2" width="20" height="20" rx="5"/>\
+          <circle cx="12" cy="12" r="4"/>\
+          <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/>\
+        </svg>\
+        <div class="btn-text">\
+          <div class="btn-title">Instagram \'97 Mariana Leite</div>\
+          <div class="btn-sub">@amarileitee</div>\
+        </div>\
+      </a>\
+    </div>\
+\
+    <!-- 6 \'97 LinkedIn -->\
+    <div class="link-row">\
+      <a href="https://www.linkedin.com/in/amarileite/" class="btn btn-outline" target="_blank" rel="noopener">\
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">\
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/>\
+          <rect x="2" y="9" width="4" height="12"/>\
+          <circle cx="4" cy="4" r="2"/>\
+        </svg>\
+        <div class="btn-text">\
+          <div class="btn-title">LinkedIn</div>\
+          <div class="btn-sub">Mariana Leite</div>\
+        </div>\
+      </a>\
+    </div>\
+\
+    <!-- 7 \'97 TikTok -->\
+    <div class="link-row">\
+      <a href="https://www.tiktok.com/@amarileite" class="btn btn-outline" target="_blank" rel="noopener">\
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">\
+          <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.22 8.22 0 0 0 4.8 1.54V6.78a4.85 4.85 0 0 1-1.03-.09z"/>\
+        </svg>\
+        <div class="btn-text">\
+          <div class="btn-title">TikTok</div>\
+          <div class="btn-sub">@amarileite</div>\
+        </div>\
+      </a>\
+    </div>\
+\
+  </div>\
+\
+  <!-- FOOTER -->\
+  <div class="footer">\
+    <svg width="56" height="18" viewBox="0 0 56 18" fill="none">\
+      <line x1="0" y1="9" x2="6" y2="9" stroke="#2D2D2D" stroke-width="1" stroke-linecap="round" opacity="0.3"/>\
+      <path d="M6 9 Q8 4.5 10 9 Q12 13.5 14 9 Q16 4.5 18 9 Q20 13.5 22 9 Q24 4.5 26 9 Q28 13.5 30 9 Q32 4.5 34 9 Q36 13.5 38 9 Q40 4.5 42 9 Q44 13.5 46 9 Q48 4.5 50 9"\
+            stroke="#2D2D2D" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.3"/>\
+      <line x1="50" y1="9" x2="56" y2="9" stroke="#2D2D2D" stroke-width="1" stroke-linecap="round" opacity="0.3"/>\
+    </svg>\
+    <span class="footer-copy">\'a9 Verbo Educa\'e7\'e3o Executiva</span>\
+  </div>\
+\
+</div>\
+</body>\
+</html>}
